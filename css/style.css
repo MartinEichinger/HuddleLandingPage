@@ -454,4 +454,64 @@ body .footer .attribution a {
   body .main .users .block .innerBlock p, body .main .users .block .innerBlock h1 {
     text-align: center;
   }
+  body .footer {
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10vw;
+  }
+  body .footer h1 {
+    font-size: 6vw;
+  }
+  body .footer p {
+    font-size: 3vw;
+  }
+  body .footer .block {
+    flex-flow: column-reverse nowrap;
+    align-items: center;
+  }
+  body .footer .block .innerBlock {
+    width: 80%;
+    justify-content: space-between;
+  }
+  body .footer .block .innerBlock .footIntro {
+    margin-top: 5vw;
+  }
+  body .footer .block .innerBlock .footPhone img {
+    width: 3vw;
+  }
+  body .footer .block .innerBlock .footEmail img {
+    width: 3vw;
+  }
+  body .footer .block .innerBlock .footNewsHead {
+    margin-top: 10vw;
+  }
+  body .footer .block .innerBlock .footNews {
+    margin-top: 5vw;
+  }
+  body .footer .block .innerBlock .footSubscribe {
+    margin-top: 5vw;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  body .footer .block .innerBlock .footSubscribe .textfield {
+    width: 100%;
+  }
+  body .footer .block .innerBlock .footSubscribe .button {
+    margin-top: 5vw;
+    margin-bottom: 7.5vw;
+    width: 30vw;
+    border-radius: 1vw;
+  }
+  body .footer .logos .block {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  body .footer .logos .block img {
+    width: 3vw;
+  }
+  body .footer .attribution {
+    width: 100%;
+  }
 }

@@ -432,6 +432,72 @@ body {
         }
       }
     }
+    .footer {
+      flex-flow: column nowrap;
+      justify-content: flex-start;
+      align-items: center;
+      margin-top: 10vw;
+      h1 {
+        font-size: 6vw;
+      }
+      p {
+        font-size: 3vw;
+      }
+      .block {
+        flex-flow: column-reverse nowrap;
+        align-items: center;
+        .innerBlock {
+          width: 80%;
+          justify-content: space-between;
+          .footIntro {
+            margin-top: 5vw;
+          }
+          .footPhone {
+            img {
+              width: 3vw;
+            }
+          }
+          .footEmail {
+            img {
+              width: 3vw;
+            }
+          }
+          .footNewsHead {
+            margin-top: 10vw;
+          }
+          .footNews {
+            margin-top: 5vw;
+          }
+          .footSubscribe {
+            margin-top: 5vw;
+            flex-flow: column nowrap;
+            justify-content: flex-end;
+            align-items: flex-end;
+            .textfield {
+              width: 100%;
+            }
+            .button {
+              margin-top: 5vw;
+              margin-bottom: 7.5vw;
+              width: 30vw;
+              border-radius: 1vw;
+            }
+          }
+        }
+      }
+      .logos {
+        .block {
+          display: flex;
+          flex-flow: row nowrap;
+          img {
+            width: 3vw;
+          }
+        }
+      }
+      .attribution {
+        width: 100%;
+      }
+    }
   }
 }
 
