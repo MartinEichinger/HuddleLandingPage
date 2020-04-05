@@ -3,18 +3,18 @@ body {
   font-weight: 400;
 }
 
-.header {
+body .header {
   padding: 40px;
   position: relative;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
 
-.header img {
+body .header img {
   display: inline-block;
 }
 
-.header .button {
+body .header .button {
   display: inline-block;
   float: right;
   color: #ff52bf;
@@ -23,26 +23,26 @@ body {
   border-radius: 20px;
 }
 
-.main {
-  font-family: 'Poppins', sans-serif;
+body .main {
+  font-family: 'Open Sans', sans-serif;
   position: relative;
   top: 15vw;
   margin: 0 auto;
 }
 
-.main h1 {
+body .main h1 {
   font-size: 3vw;
   font-weight: 700;
   text-align: center;
 }
 
-.main p {
+body .main p {
   font-size: 1.25vw;
   font-weight: 400;
   text-align: center;
 }
 
-.main .button {
+body .main .button {
   width: 15vw;
   margin: 0 auto;
   padding: 1.2vw 3.25vw;
@@ -53,94 +53,292 @@ body {
   cursor: pointer;
 }
 
-.main .button:hover {
+body .main .button:hover {
   box-shadow: 2px 4px 10px -3px grey;
 }
 
-.main img {
+body .main img {
   position: relative;
   width: 100%;
 }
 
-.main .intro {
+body .main .intro {
   width: 75%;
   margin: 0 auto;
 }
 
-.main .intro p {
+body .main .intro p {
   width: 50%;
   margin: 3vw auto;
 }
 
-.main .overview {
+body .main .overview {
   width: 75%;
   margin: 0 auto;
   margin-top: 5vw;
 }
 
-.main .overview .card {
+body .main .overview .card {
   display: inline-block;
   margin: 4vw 9vw;
 }
 
-.main .overview .card img {
+body .main .overview .card img {
   width: 2.5vw;
 }
 
-.main .overview .card h1 {
+body .main .overview .card h1 {
   font-size: 5vw;
   margin: 2vw 0vw;
 }
 
-.main .overview .card h2 {
+body .main .overview .card h2 {
   color: grey;
   text-align: center;
 }
 
-.main .grow {
+body .main .grow {
   position: relative;
   width: 100%;
-  margin: 0 auto;
+  margin-top: 10vw;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
 }
 
-.main .grow .block {
-  position: relative;
-  height: 350px;
-  padding: 0px;
-  top: 0px;
+body .main .grow .block {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: space-around;
   background-color: #f5faff;
 }
 
-.main .grow .block img {
+body .main .grow .block img {
+  width: 40%;
+}
+
+body .main .grow .block .innerBlock {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+body .main .grow .block .innerBlock h1 {
+  text-align: left;
+  padding-bottom: 20px;
+  width: 75%;
+}
+
+body .main .grow .block .innerBlock p {
+  text-align: left;
+  width: 75%;
+}
+
+body .main .flow {
   position: relative;
-  top: 0px;
-  display: inline-block;
-  float: right;
+  margin-top: 10vw;
+  width: 100%;
+}
+
+body .main .flow .block {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+body .main .flow .block img {
+  width: 40%;
+}
+
+body .main .flow .block .innerBlock {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+body .main .flow .block .innerBlock h1 {
+  text-align: left;
+  padding-bottom: 20px;
+  width: 75%;
+}
+
+body .main .flow .block .innerBlock p {
+  text-align: left;
+  width: 75%;
+}
+
+body .main .users {
+  position: relative;
+  margin-top: 10vw;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+
+body .main .users .block {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: space-around;
+  background-color: #f5faff;
+}
+
+body .main .users .block img {
+  width: 40%;
+}
+
+body .main .users .block .innerBlock {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+body .main .users .block .innerBlock h1 {
+  text-align: left;
+  padding-bottom: 20px;
+  width: 75%;
+}
+
+body .main .users .block .innerBlock p {
+  text-align: left;
+  width: 75%;
+}
+
+body .main .ready {
+  position: relative;
+  margin-top: 10vw;
+}
+
+body .main .ready h1 {
+  margin: 5vw;
+}
+
+body .footer {
+  position: relative;
+  top: 15vw;
+  margin-top: 10vw;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+
+body .footer img {
+  width: 100%;
+}
+
+body .footer .block {
+  background-color: #00252e;
+  color: white;
+  padding-top: 5vw;
+  padding-bottom: 2vw;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+body .footer .block .innerBlock {
+  width: 40%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+body .footer .block .innerBlock h1 {
+  font-size: 3vw;
+  font-weight: 600;
+}
+
+body .footer .block .innerBlock img {
+  margin: 1vw;
   width: 50%;
 }
 
-.main .grow .block .innerBlock {
-  position: relative;
-  padding: 120px 10%;
-  display: inline-block;
-  float: left;
-  width: 30%;
+body .footer .block .innerBlock .footIntro {
+  margin: 1vw;
 }
 
-.main .grow .block .innerBlock h1 {
-  text-align: left;
-  padding-bottom: 20px;
+body .footer .block .innerBlock .footPhone {
+  margin: 1vw;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.main .grow .block .innerBlock p {
-  text-align: left;
+body .footer .block .innerBlock .footPhone img {
+  width: 1.5vw;
 }
 
-.attribution {
-  font-size: 11px;
+body .footer .block .innerBlock .footEmail {
+  margin: 1vw;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body .footer .block .innerBlock .footEmail img {
+  width: 1.5vw;
+}
+
+body .footer .block .innerBlock .footSubscribe {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+body .footer .block .innerBlock .footSubscribe .textfield {
+  border-radius: 1vw;
+}
+
+body .footer .block .innerBlock .footSubscribe .button {
+  width: 15vw;
+  margin: 0 auto;
+  padding: 1.2vw 3.25vw;
+  border-radius: 3vw;
+  background-color: #ff52bf;
+  color: white;
   text-align: center;
+  cursor: pointer;
 }
 
-.attribution a {
+body .footer .block .innerBlock .footSubscribe .button:hover {
+  box-shadow: 2px 4px 10px -3px grey;
+}
+
+body .footer .logos {
+  background-color: #00252e;
+  width: 100%;
+}
+
+body .footer .logos .block {
+  width: 30%;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-left: 2vw;
+}
+
+body .footer .logos .block img {
+  width: 2vw;
+  margin-left: 10px;
+}
+
+body .footer .attribution {
+  font-size: 14px;
+  text-align: center;
+  background-color: #00252e;
+  color: white;
+  padding: 2vw;
+}
+
+body .footer .attribution a {
   color: #3e52a3;
 }

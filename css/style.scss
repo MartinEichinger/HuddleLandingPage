@@ -17,132 +17,298 @@ $VeryPaleBlue: hsl(207, 100%, 98%);
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400; //, 600, 700;
-}
-
-// Headings
-
-.header {
-  padding: 40px;
-  position: relative;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400; //700;
-  img {
-    display: inline-block;
-  }
-  .button {
-    display: inline-block;
-    float: right;
-    color: $Pink;
-    border: 1px solid $Pink;
-    padding: 5px 15px;
-    border-radius: 20px;
-  }
-}
-
-.main {
-  font-family: 'Poppins', sans-serif;
-  position: relative;
-  top: 15vw;
-  margin: 0 auto;
-  h1 {
-    font-size: 3vw;
-    font-weight: 700;
-    text-align: center;
-  }
-  p {
-    font-size: 1.25vw;
-    font-weight: 400;
-    text-align: center;
-  }
-  .button {
-    width: 15vw;
-    margin: 0 auto;
-    padding: 1.2vw 3.25vw;
-    border-radius: 3vw;
-    background-color: $Pink;
-    color: white;
-    text-align: center;
-    cursor: pointer;
-    &:hover {
-      box-shadow: 2px 4px 10px -3px grey;
-    }
-  }
-  img {
+  .header {
+    padding: 40px;
     position: relative;
-    width: 100%;
-  }
-  .intro {
-    width: 75%;
-    margin: 0 auto;
-    p {
-      width: 50%;
-      margin: 3vw auto;
-    }
-  }
-  .overview {
-    width: 75%;
-    margin: 0 auto;
-    margin-top: 5vw;
-    .card {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; //700;
+    img {
       display: inline-block;
-      margin: 4vw 9vw;
-      img {
-        width: 2.5vw;
+    }
+    .button {
+      display: inline-block;
+      float: right;
+      color: $Pink;
+      border: 1px solid $Pink;
+      padding: 5px 15px;
+      border-radius: 20px;
+    }
+  }
+  .main {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    top: 15vw;
+    margin: 0 auto;
+    h1 {
+      font-size: 3vw;
+      font-weight: 700;
+      text-align: center;
+    }
+    p {
+      font-size: 1.25vw;
+      font-weight: 400;
+      text-align: center;
+    }
+    .button {
+      width: 15vw;
+      margin: 0 auto;
+      padding: 1.2vw 3.25vw;
+      border-radius: 3vw;
+      background-color: $Pink;
+      color: white;
+      text-align: center;
+      cursor: pointer;
+      &:hover {
+        box-shadow: 2px 4px 10px -3px grey;
       }
+    }
+    img {
+      position: relative;
+      width: 100%;
+    }
+    .intro {
+      width: 75%;
+      margin: 0 auto;
+      p {
+        width: 50%;
+        margin: 3vw auto;
+      }
+    }
+    .overview {
+      width: 75%;
+      margin: 0 auto;
+      margin-top: 5vw;
+      .card {
+        display: inline-block;
+        margin: 4vw 9vw;
+        img {
+          width: 2.5vw;
+        }
+        h1 {
+          font-size: 5vw;
+          margin: 2vw 0vw;
+        }
+        h2 {
+          color: grey;
+          text-align: center;
+        }
+      }
+    }
+    .grow {
+      position: relative;
+      width: 100%;
+      margin-top: 10vw;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: flex-start;
+      img {}
+      .block {
+        //position: relative;
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        justify-content: space-around;
+        background-color: $VeryPaleBlue;
+        img {
+          width: 40%;
+        }
+        .innerBlock {
+          display: flex;
+          flex-flow: column nowrap;
+          justify-content: center;
+          align-items: center;
+          width: 40%;
+          h1 {
+            text-align: left;
+            padding-bottom: 20px;
+            width: 75%;
+          }
+          p {
+            text-align: left;
+            width: 75%;
+          }
+        }
+      }
+    }
+    .flow {
+      position: relative;
+      margin-top: 10vw;
+      width: 100%;
+      .block {
+        //position: relative;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        img {
+          width: 40%;
+        }
+        .innerBlock {
+          display: flex;
+          flex-flow: column nowrap;
+          justify-content: center;
+          align-items: center;
+          width: 40%;
+          h1 {
+            text-align: left;
+            padding-bottom: 20px;
+            width: 75%;
+          }
+          p {
+            text-align: left;
+            width: 75%;
+          }
+        }
+      }
+    }
+    .users {
+      position: relative;
+      margin-top: 10vw;
+      width: 100%;
+      //margin: 0 auto;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: flex-start;
+      img {}
+      .block {
+        //position: relative;
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        justify-content: space-around;
+        background-color: $VeryPaleBlue;
+        img {
+          width: 40%;
+        }
+        .innerBlock {
+          display: flex;
+          flex-flow: column nowrap;
+          justify-content: center;
+          align-items: center;
+          width: 40%;
+          h1 {
+            text-align: left;
+            padding-bottom: 20px;
+            width: 75%;
+          }
+          p {
+            text-align: left;
+            width: 75%;
+          }
+        }
+      }
+    }
+    .ready {
+      position: relative;
+      margin-top: 10vw;
       h1 {
-        font-size: 5vw;
-        margin: 2vw 0vw;
-      }
-      h2 {
-        color: grey;
-        text-align: center;
+        margin: 5vw;
       }
     }
   }
-  .grow {
+  .footer {
     position: relative;
-    width: 100%;
-    margin: 0 auto;
+    top: 15vw;
+    margin-top: 10vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    img {
+      width: 100%
+    }
     .block {
-      position: relative;
-      height: 350px;   ///       VERBESSERN
-      padding: 0px;
-      top: 0px;
-      background-color: $VeryPaleBlue;
-      img {
-        position: relative;
-        top: 0px;
-        display: inline-block;
-        float: right;
-        width: 50%;
-      }
+      background-color: $VeryDarkCyan;
+      color: white;
+      padding-top: 5vw;
+      padding-bottom: 2vw;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-around;
       .innerBlock {
-        position: relative;
-        padding: 120px 10%;
-        display: inline-block;
-        float: left;
-        width: 30%;
+        width: 40%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        align-items: flex-start;
         h1 {
-          text-align: left;
-          padding-bottom: 20px;
+          font-size: 3vw;
+          font-weight: 600;
         }
-        p {
-          text-align: left;
+        img {
+          margin: 1vw;
+          width: 50%;
         }
+        .footIntro {
+          margin: 1vw;
+        }
+        .footPhone {
+          margin: 1vw;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: space-between;
+          align-items: center;
+          img {
+            width: 1.5vw;
+          }
+        }
+        .footEmail {
+          margin: 1vw;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: space-between;
+          align-items: center;
+          img {
+            width: 1.5vw;
+          }
+        }
+        .footSubscribe {
+          width: 100%;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: space-around;
+          .textfield {
+            border-radius: 1vw;
+          }
+          .button {
+            width: 15vw;
+            margin: 0 auto;
+            padding: 1.2vw 3.25vw;
+            border-radius: 3vw;
+            background-color: $Pink;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+            &:hover {
+              box-shadow: 2px 4px 10px -3px grey;
+            }
+          }
+        }
+      }
+    }
+    .logos {
+      background-color: $VeryDarkCyan;
+      width: 100%;
+      .block {
+        width: 30%;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        padding-left: 2vw;
+        img {
+          width: 2vw;
+          margin-left: 10px;
+        }
+      }
+    }
+    .attribution {
+      font-size: 14px; text-align: center;
+      background-color: $VeryDarkCyan;
+      color: white;
+      padding: 2vw;
+      a {
+        color: hsl(228, 45%, 44%);
       }
     }
   }
 }
-
 // Icons
 // For the social icons, you can use a font icon library. Some suggestions can be found below:
 // [Font Awesome](https://fontawesome.com/)
 // [IcoMoon](https://icomoon.io/)
 // [Ionicons](https://ionicons.com/)
-
-.attribution {
-  font-size: 11px; text-align: center;
-  a {
-    color: hsl(228, 45%, 44%);
-  }
-}
