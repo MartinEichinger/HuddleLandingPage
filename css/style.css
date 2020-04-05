@@ -1,11 +1,139 @@
-.header {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 
-.body {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400, 600, 700;
+.header {
+  padding: 40px;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.header img {
+  display: inline-block;
+}
+
+.header .button {
+  display: inline-block;
+  float: right;
+  color: #ff52bf;
+  border: 1px solid #ff52bf;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+
+.main {
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  top: 15vw;
+  margin: 0 auto;
+}
+
+.main h1 {
+  font-size: 3vw;
+  font-weight: 700;
+  text-align: center;
+}
+
+.main p {
+  font-size: 1.25vw;
+  font-weight: 400;
+  text-align: center;
+}
+
+.main .button {
+  width: 15vw;
+  margin: 0 auto;
+  padding: 1.2vw 3.25vw;
+  border-radius: 3vw;
+  background-color: #ff52bf;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.main .button:hover {
+  box-shadow: 2px 4px 10px -3px grey;
+}
+
+.main img {
+  position: relative;
+  width: 100%;
+}
+
+.main .intro {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.main .intro p {
+  width: 50%;
+  margin: 3vw auto;
+}
+
+.main .overview {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 5vw;
+}
+
+.main .overview .card {
+  display: inline-block;
+  margin: 4vw 9vw;
+}
+
+.main .overview .card img {
+  width: 2.5vw;
+}
+
+.main .overview .card h1 {
+  font-size: 5vw;
+  margin: 2vw 0vw;
+}
+
+.main .overview .card h2 {
+  color: grey;
+  text-align: center;
+}
+
+.main .grow {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main .grow .block {
+  position: relative;
+  height: 350px;
+  padding: 0px;
+  top: 0px;
+  background-color: #f5faff;
+}
+
+.main .grow .block img {
+  position: relative;
+  top: 0px;
+  display: inline-block;
+  float: right;
+  width: 50%;
+}
+
+.main .grow .block .innerBlock {
+  position: relative;
+  padding: 120px 10%;
+  display: inline-block;
+  float: left;
+  width: 30%;
+}
+
+.main .grow .block .innerBlock h1 {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.main .grow .block .innerBlock p {
+  text-align: left;
 }
 
 .attribution {

@@ -13,18 +13,127 @@ $VeryDarkCyan: hsl(192, 100%, 9%);
 $VeryPaleBlue: hsl(207, 100%, 98%);
 
 // Styles
+// Body
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; //, 600, 700;
+}
+
 // Headings
 
 .header {
+  padding: 40px;
+  position: relative;
   font-family: 'Poppins', sans-serif;
-  font-weight: 700;
+  font-weight: 400; //700;
+  img {
+    display: inline-block;
+  }
+  .button {
+    display: inline-block;
+    float: right;
+    color: $Pink;
+    border: 1px solid $Pink;
+    padding: 5px 15px;
+    border-radius: 20px;
+  }
 }
 
-// Body
-.body {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400, 600, 700;
+.main {
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  top: 15vw;
+  margin: 0 auto;
+  h1 {
+    font-size: 3vw;
+    font-weight: 700;
+    text-align: center;
+  }
+  p {
+    font-size: 1.25vw;
+    font-weight: 400;
+    text-align: center;
+  }
+  .button {
+    width: 15vw;
+    margin: 0 auto;
+    padding: 1.2vw 3.25vw;
+    border-radius: 3vw;
+    background-color: $Pink;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    &:hover {
+      box-shadow: 2px 4px 10px -3px grey;
+    }
+  }
+  img {
+    position: relative;
+    width: 100%;
+  }
+  .intro {
+    width: 75%;
+    margin: 0 auto;
+    p {
+      width: 50%;
+      margin: 3vw auto;
+    }
+  }
+  .overview {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 5vw;
+    .card {
+      display: inline-block;
+      margin: 4vw 9vw;
+      img {
+        width: 2.5vw;
+      }
+      h1 {
+        font-size: 5vw;
+        margin: 2vw 0vw;
+      }
+      h2 {
+        color: grey;
+        text-align: center;
+      }
+    }
+  }
+  .grow {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    .block {
+      position: relative;
+      height: 350px;   ///       VERBESSERN
+      padding: 0px;
+      top: 0px;
+      background-color: $VeryPaleBlue;
+      img {
+        position: relative;
+        top: 0px;
+        display: inline-block;
+        float: right;
+        width: 50%;
+      }
+      .innerBlock {
+        position: relative;
+        padding: 120px 10%;
+        display: inline-block;
+        float: left;
+        width: 30%;
+        h1 {
+          text-align: left;
+          padding-bottom: 20px;
+        }
+        p {
+          text-align: left;
+        }
+      }
+    }
+  }
 }
+
 // Icons
 // For the social icons, you can use a font icon library. Some suggestions can be found below:
 // [Font Awesome](https://fontawesome.com/)
