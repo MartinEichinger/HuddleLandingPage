@@ -2,7 +2,7 @@
 //The designs were created to the following widths:
 
 $Mobile: 375px;
-$Desktop: 1440px;
+$Desktop: 1200px;
 
 // Colors
 // Primary
@@ -17,6 +17,8 @@ $VeryPaleBlue: hsl(207, 100%, 98%);
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400; //, 600, 700;
+  max-width: $Desktop;
+  margin: 0 auto;
   .header {
     position: relative;
     padding: 4vw;
